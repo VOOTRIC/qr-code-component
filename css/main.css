@@ -4,7 +4,7 @@
     padding: 15px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 25px;
+    gap: 20px;
     place-self: center;
     justify-items: center;
     background-color: var(--White);
@@ -14,6 +14,12 @@
 .img-container img{
     border-radius: 10px;
     max-height: fit-content;
+}
+
+.text-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
 }
 
 h1{
