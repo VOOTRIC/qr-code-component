@@ -1,15 +1,22 @@
 .container{
     width: 320px;
     height: 500px;
-    display: grid;
-    place-self: center;
     padding: 15px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    place-self: center;
+    justify-items: center;
+    background-color: var(--White);
+    border-radius: 10px;
 }
 
 .img-container img{
-    border-radius: 10px
+    border-radius: 10px;
+    max-height: fit-content;
 }
 
 h1{
+    text-align: center;
     font-size: 1.5rem;
 }

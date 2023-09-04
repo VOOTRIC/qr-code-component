@@ -5,17 +5,20 @@ box-sizing: border-box;
 
 p{
     font-size: 15px;
+    max-width: 28ch;
+    text-align: center;
 }
 
 .font-outfit-400{
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-
+    color: var(--Grayish_blue);
 }
 
 .font-outfit-700{
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
+    color: var(--Dark_blue);
 }
 
 :root{
