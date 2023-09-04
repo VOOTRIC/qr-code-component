@@ -1,0 +1,34 @@
+*{
+margin: 0px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.font-outfit-400{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+
+}
+
+.font-outfit-700{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light_gray: hsl(212, 45%, 89%);
+    --Grayish_blue: hsl(220, 15%, 55%);
+    --Dark_blue: hsl(218, 44%, 22%);
+}
+
+
+body{
+    height: 100vh;
+    background-color: var(--Light_gray);
+} 
+
+/* 1440px */
+
