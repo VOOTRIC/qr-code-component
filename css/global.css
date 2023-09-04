@@ -28,6 +28,9 @@ p{
 body{
     height: 100vh;
     background-color: var(--Light_gray);
+    background-image: url(/images/desktop-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 } 
 
 /* 1440px */
