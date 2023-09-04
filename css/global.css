@@ -1,5 +1,6 @@
 *{
 margin: 0px;
+box-sizing: border-box;
 }
 
 p{
@@ -26,6 +27,7 @@ p{
 
 
 body{
+    display: grid;
     height: 100vh;
     background-color: var(--Light_gray);
     background-image: url(/images/desktop-design.jpg);

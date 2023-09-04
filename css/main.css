@@ -1,0 +1,15 @@
+.container{
+    width: 320px;
+    height: 500px;
+    display: grid;
+    place-self: center;
+    padding: 15px;
+}
+
+.img-container img{
+    border-radius: 10px
+}
+
+h1{
+    font-size: 1.5rem;
+}
